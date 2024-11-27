@@ -1,0 +1,134 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 100
+    },
+    "display": "Read JSON",
+    "fields": {
+        "AAQ": {
+            "caption": "JSON value",
+            "doc": "The value of the JSON we want to extract data base on the following keys",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "json_value",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Thing1 Type",
+            "doc": "Which THINGS is stored in the Thing1 Key",
+            "editor": "custom_type",
+            "name": "thing1_type",
+            "optional": true,
+            "rank": 1
+        },
+        "AAi": {
+            "caption": "Thing1 Key",
+            "doc": "Key to do the research in the JSON. Its value is returned in the exposed states.",
+            "editor": "DynamicValue",
+            "name": "thing1_key",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "Text1 Key",
+            "doc": "Key to do the research in the JSON. Its value is returned in the exposed states.",
+            "editor": "DynamicValue",
+            "name": "text1_key",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Number1 Key",
+            "doc": "Key to do the research in the JSON. Its value is returned in the exposed states.",
+            "editor": "DynamicValue",
+            "name": "number1_key",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Yes/No1 Key",
+            "doc": "Key to do the research in the JSON. Its value is returned in the exposed states.",
+            "editor": "DynamicValue",
+            "name": "boolean1_key",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "Date1 Key",
+            "doc": "Key to do the research in the JSON. Its value is returned in the exposed states.",
+            "editor": "DynamicValue",
+            "name": "date1_key",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        }
+    },
+    "icon": "ion-ios-barcode-outline",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "New JSON",
+            "doc": "New JSON string created from the \"Create JSON\" action",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "new_JSON",
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "Thing1 Value",
+            "doc": "The JSON value of the \"thing1 key\"",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "thing1_value",
+            "value": "custom_data_AAh"
+        },
+        "AAk": {
+            "caption": "Text1 Value",
+            "doc": "The JSON value of the \"text1 key\"",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "text1_value",
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Number1 Value",
+            "doc": "The JSON value of the \"number1 key\"",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "number1_value",
+            "value": "number"
+        },
+        "AAp": {
+            "caption": "Yes/No1 Value",
+            "doc": "The JSON value of the \"yes/no1 key\"",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "boolean1_value",
+            "value": "boolean"
+        },
+        "AAq": {
+            "caption": "Date1 Value",
+            "doc": "The JSON value of the \"date1 key\"",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "date1_value",
+            "value": "date"
+        }
+    }
+}

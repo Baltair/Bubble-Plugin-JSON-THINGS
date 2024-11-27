@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "technical",
+        "2": "productivity",
+        "3": "data (things)"
+    },
+    "data_tracked": true,
+    "data_tracked_description": "This author has not yet disclosed their data usage policy. Learn more by contacting the author.",
+    "description": "Create JSON and Read a JSON with \"Things\" recognition. I was not satisfied by the other plugins, here is a new version where everything is within 1 element.\n\nIf you have specific requests feel free to fill this form : https://joapp.ca/request",
+    "image": "//s3.amazonaws.com/appforest_uf/f1642843775077x949339316488200200/922242-200.png",
+    "license": "open_source",
+    "name": "JSON <> THINGS"
+}

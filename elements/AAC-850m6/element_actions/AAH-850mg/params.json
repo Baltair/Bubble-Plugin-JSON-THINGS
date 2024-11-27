@@ -1,0 +1,50 @@
+{
+    "caption": "Create JSON",
+    "fields": {
+        "AAI": {
+            "caption": "Text values",
+            "doc": "List of TEXTS to be added to the JSON (For a THING, simply add its uniqueID)",
+            "editor": "key_value_list",
+            "name": "texts",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "Number values",
+            "doc": "List of NUMBERS to be added to the JSON",
+            "editor": "key_value_list",
+            "name": "numbers",
+            "optional": true,
+            "rank": 1,
+            "value": "number"
+        },
+        "AAb": {
+            "caption": "Yes/No values",
+            "doc": "List of YES/NO to be added to the JSON",
+            "editor": "key_value_list",
+            "name": "booleans",
+            "optional": true,
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Date values",
+            "doc": "List of DATES to be added to the JSON",
+            "editor": "key_value_list",
+            "name": "dates",
+            "optional": true,
+            "rank": 3,
+            "value": "date"
+        },
+        "AAd": {
+            "caption": "JSON text values",
+            "doc": "List of JSON TEXTS to be added to the JSON",
+            "editor": "key_value_list",
+            "name": "jsons",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}
